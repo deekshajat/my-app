@@ -11,7 +11,7 @@ export default function Navbar(props) {
         {/* <Link className="navbar-brand" to="/">
           {props.title}
         </Link> */}
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="">
           {props.title}
         </a>
         <button
@@ -31,7 +31,7 @@ export default function Navbar(props) {
               {/* <Link className="nav-link active" aria-current="page" to="/">
                 Home
               </Link> */}
-              <a className="nav-link active" aria-current="page" href="/">
+              <a className="nav-link active" aria-current="page" href="">
                 Home
               </a>
             </li>
@@ -39,9 +39,9 @@ export default function Navbar(props) {
               {/* <Link className="nav-link" to="/about">
                 {props.aboutText}
               </Link> */}
-              <a className="nav-link" href="/about">
+              {/* <a className="nav-link" href="/about">
                 {props.aboutText}
-              </a>
+              </a> */}
             </li>
           </ul>
           {/* <form className="d-flex" role="search">
